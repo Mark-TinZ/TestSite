@@ -1,0 +1,62 @@
+/* stile */
+.right {
+	margin-left: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+/* main */
+main {
+	flex-direction: column;
+}
+body{
+	in-height: 100%;
+	margin: 0;
+	background: #30303a;
+	font-family: Open Sans,Tahoma,Sans-Serif;
+	font-weight: 300;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background: #606060;
+	transition: background .2s;
+	color: #fefefe;
+	height: 100px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/* header */
+.menu {
+	background: #494949;
+	transition: background .2s;
+	color: #fff;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+}
+.menu span {
+	padding: 4px 16px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.menu span:hover {
+	background-color:#595959;
+	cursor:pointer
+}
+.menu .active {
+	background-color:#818181
+}
