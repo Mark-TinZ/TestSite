@@ -25,6 +25,16 @@ header {
 	color: #fefefe;
 	height: 100px;
 }
+header .logo {
+  flex: 0 0 auto;
+  max-height: 100%;
+  height: 100%;
+}
+header .title {
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 20px;
+}
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
